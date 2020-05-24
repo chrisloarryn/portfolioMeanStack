@@ -1,6 +1,9 @@
 # PortfolioMeanStack
 
+
+`To update version`: ng update @angular/cli @angular/core => `9.0.6 => 9.1.9`
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
+https://www.angularjswiki.com/angular/update-angular-cli-version-ng-update-to-latest-6-7-versions/
 
 ## Development server
 
