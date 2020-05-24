@@ -10,6 +10,11 @@
   background: inherit;
 }
 
+// font
+.mat-list-item {
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
 .mat-toolbar.mat-primary {
   position: sticky;
   top: 0;

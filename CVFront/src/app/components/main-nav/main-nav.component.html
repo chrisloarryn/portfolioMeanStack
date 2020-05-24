@@ -5,10 +5,10 @@
       [opened]="(isHandset$ | async) === false">
     <mat-toolbar>Menu</mat-toolbar>
     <mat-nav-list>
-      <a mat-list-item href="#">HOME</a>
+      <a mat-list-item [routerLink]="['/home']" routerLinkActive="router-link-active" >HOME</a>
       <a mat-list-item href="#">ABOUT ME</a>
       <a mat-list-item href="#">PROJECTS</a>
-      <a mat-list-item href="#">CONTACT</a>
+      <a mat-list-item [routerLink]="['/contact']" routerLinkActive="router-link-active" >CONTACT</a>
     </mat-nav-list>
   </mat-sidenav>
   <mat-sidenav-content>
@@ -24,6 +24,7 @@
       <span>portfolioMeanStack</span>
     </mat-toolbar>
     <!-- Add Content Here -->
+    
     <ng-content></ng-content>
   </mat-sidenav-content>
 </mat-sidenav-container>
