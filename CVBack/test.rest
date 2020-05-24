@@ -1,8 +1,19 @@
 GET http://localhost:3000/api/v1/projects
 
-
-
-#
-
-GET http://localhost:3000/
+###
+POST http://localhost:3000/api/v1/projects
 Content-Type: application/json
+
+{
+    "title": "Test Title",
+    "description": "Test description",
+    "url": "http://localhost:3000/api/v1",
+    "client": "Test Client",
+    "urlClient": "Test Url"
+}
+
+###
+PUT http://localhost:3000/api/v1/projects
+
+###
+DELETE http://localhost:3000/api/v1/projects

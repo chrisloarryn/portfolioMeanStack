@@ -1,2 +1,5 @@
 /proyectos - vista con todos los proyectos
-/api/proyectos recuperar un json
+GET /api/proyectos - recuperar un json
+POST /api/proyectos - recuperar un json
+PUT /api/proyectos - recuperar un json
+DELETE /api/proyectos - recuperar un json
