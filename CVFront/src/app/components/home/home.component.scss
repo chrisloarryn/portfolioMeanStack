@@ -1,0 +1,39 @@
+.home {
+    height: 100%;
+    overflow: scroll;
+    .sections {
+        /* Take full size */
+        height: 100%;
+        width: 100%;
+        /* Stick to the top */
+        position: sticky;
+        top: 0;
+    }
+    .about {
+        background-color: lightgrey;
+    }
+    .hero {
+        background-color: papayawhip;
+        &>div{
+            /* Center the content */
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            /* Take full size */
+            height: 100vh;
+            width: 100%;
+
+            /* Background */
+            //background: url("https://i.pinimg.com/236x/3e/df/3e/3edf3e7ee75e0e3b0b73cf7b17f7d94b--meat-hd-wallpaper.jpg") center center / cover no-repeat;
+            background-image: url('/assets/images/coffeBean.jpg');
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+    .projects {
+        background-color: darkgrey;
+    }
+}
